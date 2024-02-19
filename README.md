@@ -17,3 +17,9 @@ Each block has a TYPE, which will determine how many labels must follow the type
 
 A block contains a body, which is delimited by the opened and closed curly braces { }. Within the body, you will declare arguments associated with the block. These arguments appear in the form of key-value pairs commonly referred to as IDENTIFIERS and EXPRESSIONS.
 
+### DOT-formatted object
+Enter the following command in the terminal window to generate a DOT-formatted object that represents your Terraform configuration:
+
+```bash
+terraform graph
+```
